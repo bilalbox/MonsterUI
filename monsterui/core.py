@@ -83,12 +83,16 @@ def _headers_theme(color, mode='auto', radii=ThemeRadii.sm, shadows=ThemeShadows
 
 # %% ../nbs/01_core.ipynb
 HEADER_URLS = {
-        'franken_css': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/css/core.min.css",
-        'franken_js_core': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/js/core.iife.js",
-        'franken_icons': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/js/icon.iife.js",
+        'franken_css': "https://cdn.jsdelivr.net/npm/franken-ui@2.1.0-next.16/dist/css/core.min.css",
+        'franken_js_core': "https://cdn.jsdelivr.net/npm/franken-ui@2.1.0-next.16/dist/js/core.iife.js",
+        'franken_icons': "https://cdn.jsdelivr.net/npm/franken-ui@2.1.0-next.16/dist/js/icon.iife.js",
+        # 'franken_css': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/css/core.min.css",
+        # 'franken_js_core': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/js/core.iife.js",
+        # 'franken_icons': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/js/icon.iife.js",
         'tailwind': "https://cdn.tailwindcss.com/3.4.16",
         'daisyui': "https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css",
-        'apex_charts': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/js/chart.iife.js",
+        'apex_charts': "https://cdn.jsdelivr.net/npm/franken-ui@2.1.0-next.16/dist/js/chart.iife.js",
+        # 'apex_charts': "https://cdn.jsdelivr.net/npm/franken-ui@2.0.0/dist/js/chart.iife.js",
         'highlight_js': "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js",
         'highlight_python': "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/python.min.js",
         'highlight_light_css': "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/atom-one-light.css",
